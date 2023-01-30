@@ -1,7 +1,7 @@
 import cors from 'cors'
 import express from 'express'
 import * as dotenv from 'dotenv'
-import { apiRouter } from './api/routers/api.router'
+import { apiRouter } from './api/pizza/api.router'
 import unexpectedErrorMiddleware from './api/middlewares/error.global'
 import helmet from 'helmet'
 import { logger } from './winston.logger'
